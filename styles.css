@@ -1,0 +1,79 @@
+/* 
+Student's Name: Maharshi
+Student's Number: 8980553
+ */
+
+
+body {
+  width: 90%;
+  max-width: 95%;
+  margin: auto;
+  font: 16px Arial, sans-serif;
+  padding: 2.5%;
+  background-color: rgba(128, 128, 128, 0.507);
+}
+
+.head_foot{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2.5%;
+  margin: 2.5%;
+}
+
+h1, h2 {
+  color: rgb(6, 6, 93);
+  font-variant: small-caps;
+}
+
+footer p {
+  clear: both;
+  font-size: 14px;
+  color: purple;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+main {
+  width: 51.66%;
+  float: left;
+  padding: 2.5%;
+  margin: 2.5%;
+}
+                                      /*by calculation*/
+aside {
+  width: 25.83%;         
+ float: right;                       /* the <main> uses 2/3 of the page and the <aside> uses 1/3. (as we also have to include margin and padding with them) */
+  padding: 2.5%;
+  margin: 2.5%;
+}
+.mainimg {
+  width: 200px;
+  height: auto;
+  border: 5px solid gray;
+}
+
+figcaption {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+q {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 2.0em;
+}
+
+ul>li>a{
+  text-decoration: none;
+  color: purple;
+}
+
+aside ul li a:hover {
+  color: red;
+}
